@@ -4,12 +4,21 @@
         <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
         <title>Chickens</title>
+        <link rel="stylesheet" href="App.CSS">
     </head>
     <body>
-        <h1>Chickens!</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Est expedita eveniet, nam nihil laudantium minus. 
-             Excepturi neque voluptas sed repellat eveniet odio ab veniam, 
-             aliquam ratione architecto tempore ad officiis?</p>
+        
+     <svg viewBox="0 0 600 300">
+     <!-- Symbol-->
+     <symbol id="s-text">
+      <text text-anchor="middle" x="50%" y="50%" dy=".35em">Interstellar</text>
+     </symbol>
+     <!-- Duplicate symbols-->
+      <use class="text" xlink:href="#s-text"></use>
+      <use class="text" xlink:href="#s-text"></use>
+      <use class="text" xlink:href="#s-text"></use>
+      <use class="text" xlink:href="#s-text"></use>
+      <use class="text" xlink:href="#s-text"></use>
+      </svg>
     </body>
 </html>
